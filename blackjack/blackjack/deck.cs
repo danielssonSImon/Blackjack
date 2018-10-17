@@ -11,5 +11,9 @@ namespace blackjack
     {
         private List<int> cardDeck = new List<int>();
 
+        public deck(List<int> cardDeck)
+        {
+            this.cardDeck = cardDeck;
+        }
     }
 }
